@@ -2,7 +2,7 @@
 
 ## 개요
 
-- **최대가능도추정법(MLE)**은 통계적 모형에서 **모수(parameter)**를 추정하는 대표적인 방법입니다
+- **최대가능도추정법**(**MLE**)은 통계적 모형에서 **모수**(**parameter**)를 추정하는 대표적인 방법입니다
 - 관측된 데이터가 주어졌을 때, 그 데이터가 가장 "그럴듯하게(likely)" 나올 수 있도록 만드는 모수 값을 찾습니다
 - 즉, **데이터를 가장 잘 설명하는 모수를 선택**하는 방법
 
@@ -17,15 +17,11 @@
 
 - 관측된 데이터가 주어졌을 때, 모수 $\theta$에 대한 "가능도"를 정의합니다
 
-  - $
-L(\theta; x_1, \dots, x_n) = \prod_{i=1}^n p(x_i | \theta)
-$
+  - $L(\theta; x_1, \dots, x_n) = \prod_{i=1}^n p(x_i | \theta)$
 
 - 로그가능도(Log-Likelihood): 계산 편의를 위해 로그를 취합니다 (곱 -> 합)
 
-  - $
-\ell(\theta) = \log L(\theta) = \sum_{i=1}^n \log p(x_i | \theta)
-$
+  - $\ell(\theta) = \log L(\theta) = \sum_{i=1}^n \log p(x_i | \theta)$
 
 ## 최대가능도추정 (MLE)
 
@@ -33,15 +29,11 @@ $
 
 - MLE는 가능도 함수 $L(\theta)$를 최대로 만드는 $\theta$를 찾는 방법입니다
 
-  - $
-\hat{\theta}_{MLE} = \arg\max_{\theta} L(\theta; x_1, \dots, x_n)
-$
+  - $\hat{\theta}_{MLE} = \arg\max_{\theta} L(\theta; x_1, \dots, x_n)$
 
 - 보통 로그가능도를 사용하여 최적화합니다
 
-  - $
-\hat{\theta}_{MLE} = \arg\max_{\theta} \ell(\theta)
-$
+  - $\hat{\theta}_{MLE} = \arg\max_{\theta} \ell(\theta)$
 
 <br>
 

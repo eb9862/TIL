@@ -12,15 +12,11 @@
 
 확률변수 $X \sim p(x)$의 기대값은 다음과 같습니다:
 
-$
-\mathbb{E}[f(X)] = \int f(x) p(x) \, dx
-$
+$\mathbb{E}[f(X)] = \int f(x) p(x) \, dx$
 
 이를 직접 계산하기 어렵다면, $p(x)$에서 샘플 $\{x_1, x_2, \dots, x_N\}$을 추출하여 근사합니다:
 
-$
-\mathbb{E}[f(X)] \approx \frac{1}{N} \sum_{i=1}^N f(x_i)
-$
+$\mathbb{E}[f(X)] \approx \frac{1}{N} \sum_{i=1}^N f(x_i)$
 
 샘플 개수 $N$이 커질수록 근사값은 실제 기대값에 수렴합니다 (대수의 법칙)
 
@@ -30,21 +26,13 @@ $
 
 ## 몬테카를로 적분 (Monte Carlo Integration)
 
-적분
-$
-I = \int_a^b f(x) dx
-$
-를 몬테카를로 방법으로 근사하는 과정:
+적분 $I = \int_a^b f(x) dx$를 몬테카를로 방법으로 근사하는 과정:
 
 1. $[a, b]$ 구간에서 균일분포로 샘플 $x_1, x_2, \dots, x_N$을 뽑습니다
 2. 함수값의 평균을 구합니다:
-   $
-   \bar{f} = \frac{1}{N} \sum_{i=1}^N f(x_i)
-   $
+   $\bar{f} = \frac{1}{N} \sum_{i=1}^N f(x_i)$
 3. 적분값을 근사합니다:
-   $
-   I \approx (b-a) \cdot \bar{f}
-   $
+   $I \approx (b-a) \cdot \bar{f}$
 
 ## 요약
 
