@@ -62,6 +62,18 @@
     # arr이 랜덤하게 섞임
     ```
 
+### [`numpy.random.permutation`](https://numpy.org/doc/2.2/reference/random/generated/numpy.random.permutation.html)
+
+
+- 기능: 배열의 요소를 랜덤하게 섞음
+- 사용법 (`shuffle`과 다르게 원본을 유지하고 새로운 배열 반환)
+
+```python
+np.random.permutation(5) # [3 1 5 4 2]
+np.random.permutation([1, 4, 9, 12, 15]) #[15,  1,  9,  4, 12]
+```
+
 <br>
 
-> 2025.09.12 작성
+> 작성 - `2025.09.12`<br>
+> 마지막 수정 - `2025.09.15`

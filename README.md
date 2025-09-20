@@ -19,9 +19,22 @@
 - [몬테카를로 샘플링(Monte Carlo Sampling)](https://github.com/eb9862/TIL/blob/main/Math/Monte_Carlo_Sampling.md)
 - [최대가능도 추정법(MLE)](https://github.com/eb9862/TIL/blob/main/Math/MLE.md)
 
+- [결정계수($R^2$)]()
+
 ---
 
 ### <img src="https://cdn.simpleicons.org/numpy/00A3E0" width="15"> NumPy
 
 - [np.random]()
 - ...
+
+### 🤖 AI/ML
+
+- [퍼셉트론(Perceptron)]()
+- [손실함수]()
+- [역전파(Back Propagation)]()
+- [활성화 함수()]()
+- [가중치 초기화]()
+- ...
+- [RNN(Recurrent Neural Network)]()
+- [Attention]()
