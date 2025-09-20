@@ -29,11 +29,11 @@
 
 ### 🤖 AI/ML
 
-- [퍼셉트론(Perceptron)]()
-- [손실함수]()
-- [역전파(Back Propagation)]()
-- [활성화 함수()]()
-- [가중치 초기화]()
+- [퍼셉트론(Perceptron)](https://github.com/eb9862/TIL/blob/main/AI_ML/Perceptron.md)
+- [손실함수](https://github.com/eb9862/TIL/blob/main/AI_ML/Loss_Function.md)
+- [역전파(Back Propagation)](https://github.com/eb9862/TIL/blob/main/AI_ML/Back_Propagation.md)
+- [활성화 함수(Activation Function)](https://github.com/eb9862/TIL/blob/main/AI_ML/Activation_Function.md)
+- [가중치 초기화](https://github.com/eb9862/TIL/blob/main/AI_ML/%EA%B0%80%EC%A4%91%EC%B9%98_%EC%B4%88%EA%B8%B0%ED%99%94.md)
 - ...
 - [RNN(Recurrent Neural Network)]()
 - [Attention]()
