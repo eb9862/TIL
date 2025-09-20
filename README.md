@@ -18,14 +18,13 @@
 - [조건부 확률과 베이즈 정리(Bayes' theorem)](https://github.com/eb9862/TIL/blob/main/Math/%EB%B2%A0%EC%9D%B4%EC%A6%88_%EC%A0%95%EB%A6%AC.md)
 - [몬테카를로 샘플링(Monte Carlo Sampling)](https://github.com/eb9862/TIL/blob/main/Math/Monte_Carlo_Sampling.md)
 - [최대가능도 추정법(MLE)](https://github.com/eb9862/TIL/blob/main/Math/MLE.md)
-
-- [결정계수($R^2$)]()
+- [결정계수($R^2$)](https://github.com/eb9862/TIL/blob/main/Math/%EA%B2%B0%EC%A0%95%EA%B3%84%EC%88%98.md)
 
 ---
 
 ### <img src="https://cdn.simpleicons.org/numpy/00A3E0" width="15"> NumPy
 
-- [np.random]()
+- [np.random](https://github.com/eb9862/TIL/blob/main/numpy_random.md)
 - ...
 
 ### 🤖 AI/ML
