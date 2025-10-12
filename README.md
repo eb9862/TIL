@@ -1,7 +1,8 @@
 # 📝 TIL
 
-### <img src="https://cdn.simpleicons.org/pytorch/EE4C2C" width="15"> Pytorch
+### <img src="https://cdn.simpleicons.org/pytorch/EE4C2C" width="15"> PyTorch
 
+- [`torchvision.transforms`]()
 - ...
 
 ---
@@ -24,10 +25,12 @@
 
 ### <img src="https://cdn.simpleicons.org/numpy/00A3E0" width="15"> NumPy
 
-- [np.random](https://github.com/eb9862/TIL/blob/main/numpy_random.md)
+- [`np.random`](https://github.com/eb9862/TIL/blob/main/numpy_random.md)
 - ...
 
-### 🤖 AI/ML
+---
+
+### 🤖 ML/DL
 
 - [퍼셉트론(Perceptron)](https://github.com/eb9862/TIL/blob/main/AI_ML/Perceptron.md)
 - [손실함수](https://github.com/eb9862/TIL/blob/main/AI_ML/Loss_Function.md)
@@ -35,5 +38,6 @@
 - [활성화 함수(Activation Function)](https://github.com/eb9862/TIL/blob/main/AI_ML/Activation_Function.md)
 - [가중치 초기화](https://github.com/eb9862/TIL/blob/main/AI_ML/%EA%B0%80%EC%A4%91%EC%B9%98_%EC%B4%88%EA%B8%B0%ED%99%94.md)
 - ...
-- [RNN(Recurrent Neural Network)]()
-- [Attention]()
+- [CNN(Convolutional Neural Network)]()
+- [Transformer]()
+- [Word2Vec]()
