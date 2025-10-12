@@ -2,7 +2,7 @@
 
 ### <img src="https://cdn.simpleicons.org/pytorch/EE4C2C" width="15"> PyTorch
 
-- [`torchvision.transforms`]()
+- [`torchvision.transforms`](https://github.com/eb9862/TIL/blob/main/torch/torchvision_transforms.md)
 - ...
 
 ---
@@ -38,6 +38,6 @@
 - [활성화 함수(Activation Function)](https://github.com/eb9862/TIL/blob/main/AI_ML/Activation_Function.md)
 - [가중치 초기화](https://github.com/eb9862/TIL/blob/main/AI_ML/%EA%B0%80%EC%A4%91%EC%B9%98_%EC%B4%88%EA%B8%B0%ED%99%94.md)
 - ...
-- [CNN(Convolutional Neural Network)]()
-- [Transformer]()
-- [Word2Vec]()
+- [CNN(Convolutional Neural Network)](https://github.com/eb9862/TIL/blob/main/AI_ML/CNN.md)
+- [Transformer](https://github.com/eb9862/TIL/blob/main/AI_ML/Transformer.md)
+- [Word2Vec](https://github.com/eb9862/TIL/blob/main/AI_ML/Word2Vec.md)
