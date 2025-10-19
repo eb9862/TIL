@@ -75,5 +75,60 @@ np.random.permutation([1, 4, 9, 12, 15]) #[15,  1,  9,  4, 12]
 
 <br>
 
+## 이산 확률분포 난수 생성
+
+### [`numpy.random.binomial`](https://numpy.org/doc/2.2/reference/random/generated/numpy.random.binomial.html)
+
+- 기능: **이항분포(Binomial distribution)** 에 따라 난수를 생성  
+  (n회 시행 중 성공 확률 p인 사건이 몇 번 일어나는지)
+- 공식  
+  $P(X=k) = \binom{n}{k} p^k (1-p)^{n-k}$
+- 주요 파라미터  
+  - `n`: 시행 횟수  
+  - `p`: 성공 확률 (0~1)  
+  - `size`: 샘플 개수(shape)
+
+```python
+np.random.binomial(n=10, p=0.5, size=5)
+# 예: [4, 6, 5, 7, 3] (10회 중 성공 횟수)
+```
+
+### [`numpy.random.poisson`](https://numpy.org/doc/2.2/reference/random/generated/numpy.random.poisson.html)
+
+- 기능: **포아송 분포(Poisson distribution)** 에 따라 난수를 생성  
+  (단위 시간 내 평균 λ번 발생하는 사건이 실제 몇 번 발생하는지)
+- 공식
+  $P(X=k) = \frac{\lambda^k e^{-\lambda}}{k!}$
+- 주요 파라미터  
+  - `lam`: 평균 발생 횟수 (λ)
+  - `size`: 샘플 개수(shape)
+
+```python
+np.random.poisson(lam=3.0, size=10)
+# 예: [2, 3, 1, 4, 3, 2, 2, 6, 3, 5]
+```
+
+### [`numpy.random.multinomial`](https://numpy.org/doc/2.1/reference/random/generated/numpy.random.multinomial.html)
+
+- 기능: **다항분포(Multinomial distribution)** 에 따라 난수를 생성  
+  (여러 범주 중 하나를 선택하는 시행을 n번 했을 때, 각 범주가 선택된 횟수)
+- 공식  
+  $P(X_1=k_1, \dots, X_m=k_m) = \frac{n!}{k_1! \cdots k_m!} p_1^{k_1} \cdots p_m^{k_m}$
+- 주요 파라미터  
+  - `n`: 전체 시행 횟수  
+  - `pvals`: 각 범주의 확률 리스트 (합 = 1)  
+  - `size`: 샘플 개수
+
+```python
+np.random.multinomial(n=10, pvals=[0.2, 0.3, 0.5], size=5)
+# 예: [[1, 3, 6],
+#      [2, 4, 4],
+#      [3, 2, 5],
+#      [1, 1, 8],
+#      [2, 2, 6]]
+```
+
+<br>
+
 > 작성 - `2025.09.12`<br>
-> 마지막 수정 - `2025.09.15`
+> 마지막 수정 - `2025.10.13`
