@@ -21,7 +21,7 @@
 - [최대가능도 추정법(MLE)](https://github.com/eb9862/TIL/blob/main/Math/MLE.md)
 - [결정계수($R^2$)](https://github.com/eb9862/TIL/blob/main/Math/%EA%B2%B0%EC%A0%95%EA%B3%84%EC%88%98.md)
 - ...
-- [확률 변수와 확률 분포]()
+- [확률 변수와 확률 분포](https://github.com/eb9862/TIL/blob/main/Math/random_variable_probability_distribution.md)
 
 ---
 
