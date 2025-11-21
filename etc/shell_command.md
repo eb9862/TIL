@@ -2,52 +2,54 @@
 
 ## 목차
 
-- [파일 및 디렉토리 관리 (File & Directory Management)](#파일-및-디렉토리-관리-file--directory-management)
-  - [ls](#ls)
-  - [pwd](#pwd)
-  - [cd](#cd)
-  - [mkdir](#mkdir)
-  - [cp](#cp)
-  - [mv](#mv)
-  - [rm](#rm)
-  - [find](#find)
-  - [tree](#tree)
-- [파일 내용 보기 및 편집 (Viewing & Editing Files)](#파일-내용-보기-및-편집-viewing--editing-files)
-  - [cat](#cat)
-  - [head / tail](#head--tail)
-  - [vi(m)](#vim)
-- [텍스트 처리 및 검색 (Text Processing & Searching)](#텍스트-처리-및-검색-text-processing--searching)
-  - [grep](#grep)
-  - [sort](#sort)
-  - [uniq](#uniq)
-  - [cut](#cut)
-  - [awk](#awk)
-- [프로세스 및 시스템 정보 (Process & System Information)](#프로세스-및-시스템-정보-process--system-information)
-  - [ps](#ps)
-  - [df](#df)
-  - [history](#history)
-- [네트워크 (Networking)](#네트워크-networking)
-  - [curl](#curl)
-  - [ssh](#ssh)
-  - [scp](#scp)
-- [권한 및 환경 (Permissions & Environment)](#권한-및-환경-permissions--environment)
-  - [sudo](#sudo)
-  - [chmod](#chmod)
-  - [export](#export)
-  - [alias](#alias)
-- [명령어 및 스크립트 실행 (Command & Script Execution)](#명령어-및-스크립트-실행-command--script-execution)
-  - [man](#man)
-  - [echo](#echo)
-  - [clear](#clear)
-  - [bash](#bash)
-  - [python](#python)
-  - [nohup](#nohup)
-- [입출력 리디렉션 및 파이프 (I/O Redirection & Pipes)](#입출력-리디렉션-및-파이프-io-redirection--pipes)
-  - [Redirection & Pipe](#redirection--pipe)
+- [쉘 명령어 간단 정리](#쉘-명령어-간단-정리)
+  - [목차](#목차)
+  - [파일 및 디렉토리 관리](#파일-및-디렉토리-관리)
+    - [ls](#ls)
+    - [pwd](#pwd)
+    - [cd](#cd)
+    - [mkdir](#mkdir)
+    - [cp](#cp)
+    - [mv](#mv)
+    - [rm](#rm)
+    - [find](#find)
+    - [tree](#tree)
+  - [파일 내용 보기 및 편집](#파일-내용-보기-및-편집)
+    - [cat](#cat)
+    - [head / tail](#head--tail)
+    - [vi(m)](#vim)
+  - [텍스트 처리 및 검색](#텍스트-처리-및-검색)
+    - [grep](#grep)
+    - [sort](#sort)
+    - [uniq](#uniq)
+    - [cut](#cut)
+    - [awk](#awk)
+  - [프로세스 및 시스템 정보](#프로세스-및-시스템-정보)
+    - [ps](#ps)
+    - [df](#df)
+    - [history](#history)
+  - [네트워크](#네트워크)
+    - [curl](#curl)
+    - [ssh](#ssh)
+    - [scp](#scp)
+  - [권한 및 환경](#권한-및-환경)
+    - [sudo](#sudo)
+    - [chmod](#chmod)
+    - [export](#export)
+    - [alias](#alias)
+  - [명령어 및 스크립트 실행](#명령어-및-스크립트-실행)
+    - [man](#man)
+    - [echo](#echo)
+    - [clear](#clear)
+    - [bash](#bash)
+    - [python](#python)
+    - [nohup](#nohup)
+  - [입출력 리디렉션 및 파이프](#입출력-리디렉션-및-파이프)
+    - [Redirection \& Pipe](#redirection--pipe)
 
 ---
 
-## 파일 및 디렉토리 관리 (File & Directory Management)
+## 파일 및 디렉토리 관리
 
 ### ls
 - `list`의 약자로, 현재 위치한 디렉토리의 파일 및 폴더 목록을 보여주는 명령어
@@ -138,7 +140,7 @@ tree
 tree -L 2 # 현재 디렉토리부터 2단계 깊이까지의 구조를 트리 형태로 보여줌
 ```
 
-## 파일 내용 보기 및 편집 (Viewing & Editing Files)
+## 파일 내용 보기 및 편집
 
 ### cat
 - `concatenate`의 약자로, 파일의 내용을 터미널에 출력하거나 여러 파일을 합치는 데 사용
@@ -176,7 +178,7 @@ tail -f log.txt
 vi filename.txt
 ```
 
-## 텍스트 처리 및 검색 (Text Processing & Searching)
+## 텍스트 처리 및 검색
 
 ### grep
 - 파일이나 표준 입력에서 특정 패턴(문자열, 정규표현식)을 포함하는 행을 찾아 출력하는 명령어
@@ -241,7 +243,7 @@ awk '{print $1}' file.txt
 awk '/ERROR/ {print $3}' log.txt
 ```
 
-## 프로세스 및 시스템 정보 (Process & System Information)
+## 프로세스 및 시스템 정보
 
 ### ps
 - `process status`의 약자로, 현재 실행 중인 프로세스들의 상태를 보여주는 명령어
@@ -273,7 +275,7 @@ history 10 # 최근에 사용한 명령어 10개를 보여줌
 !100 # 100번째 명령어 재실행
 ```
 
-## 네트워크 (Networking)
+## 네트워크
 
 ### curl
 - `Client for URLs`의 약자로, 다양한 프로토콜을 사용하여 URL로부터 데이터를 전송하거나 가져오는 명령어
@@ -311,7 +313,7 @@ scp file.txt user@hostname:/remote/path/
 scp user@hostname:/remote/path/file.txt .
 ```
 
-## 권한 및 환경 (Permissions & Environment)
+## 권한 및 환경
 
 ### sudo
 - `substitute user do` 또는 `superuser do`의 약자로, 다른 사용자(기본적으로 root)의 권한으로 명령어를 실행
@@ -344,7 +346,7 @@ export MY_VAR="my_value"
 alias ll='ls -al'
 ```
 
-## 명령어 및 스크립트 실행 (Command & Script Execution)
+## 명령어 및 스크립트 실행
 
 ### man
 - `manual`의 약자로, 터미널에서 사용되는 명령어의 매뉴얼을 출력해주는 명령어
@@ -385,7 +387,7 @@ python my_app.py
 nohup python my_script.py &
 ```
 
-## 입출력 리디렉션 및 파이프 (I/O Redirection & Pipes)
+## 입출력 리디렉션 및 파이프
 
 ### Redirection & Pipe
 - `>`: 표준 출력을 파일로 리디렉션 (덮어쓰기)
