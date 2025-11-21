@@ -43,3 +43,9 @@
 - [CNN(Convolutional Neural Network)](https://github.com/eb9862/TIL/blob/main/AI_ML/CNN.md)
 - [Transformer](https://github.com/eb9862/TIL/blob/main/AI_ML/Transformer.md)
 - [Word2Vec](https://github.com/eb9862/TIL/blob/main/AI_ML/Word2Vec.md)
+
+### ETC..
+
+- [쉘 명령어]()
+- [버전 관리 시스템]()
+- [가상환경 설정]()
